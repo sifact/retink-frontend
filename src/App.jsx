@@ -7,6 +7,7 @@ import TopBanner from "./Components/TopBanner/TopBanner";
 import Video from "./Components/Video/Video";
 import Content from "./Components/Content/Content";
 import Footer from "./Components/Footer/Footer";
+import Notify from "./Components/Notify/Notify";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Video />
             <Features />
             <Content />
+            <Notify />
             <Footer />
         </section>
     );

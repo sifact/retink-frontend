@@ -1,9 +1,13 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/Retink-avatar (1) 1mainlogo.jpg";
+import logo from "../../assets/Logoretinklogo.svg";
 
 const Navbar = () => {
-    return <Nav></Nav>;
+    return (
+        <nav className="my-8 container__vn">
+            <img className="logo" src={logo} alt="" />
+        </nav>
+    );
 };
 
 export default Navbar;
