@@ -1,0 +1,22 @@
+:root {
+    --primary: #7e1cfe;
+    --dark: #000000;
+
+    --pure: #f5f5f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: #fffaff;
+    color: black;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
