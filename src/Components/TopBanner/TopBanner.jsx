@@ -1,6 +1,7 @@
 import React from "react";
 import "./TopBanner.css";
 import img from "../../assets/Retink-hero-img.png";
+import { Link } from "react-router-dom";
 
 const TopBanner = () => {
     return (
@@ -61,9 +62,11 @@ const TopBanner = () => {
                         <button className="btn-primary smooth mr-20">
                             Notify me
                         </button>
-                        <button className="btn-secondary smooth">
-                            Sign up as a freelance partner
-                        </button>
+                        <Link to="/register">
+                            <button className="btn-secondary smooth">
+                                Sign up as a freelance partner
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

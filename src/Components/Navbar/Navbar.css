@@ -1,3 +1,59 @@
+nav {
+    position: relative;
+}
+
+.logo__wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     width: 120px;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.icon {
+    display: none;
+    /* margin: rem; */
+}
+
+@media screen and (max-width: 575px) {
+    .icon {
+        display: block;
+        transition: 0.3s;
+    }
+
+    .nav__items {
+        top: 4rem;
+        left: 0px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
+        z-index: 3;
+        background: #fffaff;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.01);
+        /* padding-bottom: 1rem; */
+        border-radius: 8px;
+
+        padding: 2rem;
+        padding-left: 0;
+        padding-top: 0;
+        transition: 0.5s;
+    }
+
+    nav a {
+        margin: 0;
+    }
+    .d__none {
+        display: none;
+    }
+    .d__block {
+        display: flex;
+    }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Notify.css";
 
 const Notify = () => {
@@ -15,9 +16,11 @@ const Notify = () => {
             </div>
             <div className="text-center">
                 <button className="btn-primary mb-8">Notify me</button> <br />
-                <button className="btn-secondary">
-                    Sign up as a freelance partner
-                </button>
+                <Link to="/register">
+                    <button className="btn-secondary smooth">
+                        Sign up as a freelance partner
+                    </button>
+                </Link>
             </div>
         </section>
     );

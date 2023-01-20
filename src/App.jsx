@@ -8,18 +8,13 @@ import Video from "./Components/Video/Video";
 import Content from "./Components/Content/Content";
 import Footer from "./Components/Footer/Footer";
 import Notify from "./Components/Notify/Notify";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./Router/Router";
 
 function App() {
     return (
         <section>
-            <Navbar />
-            <TopBanner />
-
-            <Video />
-            <Features />
-            <Content />
-            <Notify />
-            <Footer />
+            <RouterProvider router={router} />
         </section>
     );
 }
