@@ -11,7 +11,7 @@ const TopBanner = () => {
                         Get Advanced AI + Expert Created
                     </h1>
                     <h1
-                        className="text-4xl font-bold"
+                        className="text-4xl font-bold mt-4"
                         style={{ color: "var(--primary)" }}
                     >
                         Logos
@@ -33,7 +33,7 @@ const TopBanner = () => {
                     </p>
                     <p
                         style={{ color: "var(--primary)" }}
-                        className="text-2xl font-semibold"
+                        className="text-2xl font-semibold mb-4"
                     >
                         Sign Up For The BETA!
                     </p>

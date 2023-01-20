@@ -12,7 +12,7 @@
     margin-right: 1.5rem;
 }
 .notify input {
-    padding: 12px 54px;
+    padding: 12px 50px;
     border-radius: 20px;
     background: transparent;
     border: 2px solid var(--primary);
@@ -24,8 +24,13 @@
     opacity: 1;
 }
 
-@media screen and (max-width: 633px) {
+@media screen and (max-width: 645px) {
     .notify .padding {
         margin-bottom: 1.5rem;
+        margin-right: 0;
+    }
+
+    .notify input {
+        padding: 12px 20px;
     }
 }
