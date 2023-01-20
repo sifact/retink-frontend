@@ -6,7 +6,11 @@ const Notify = () => {
         <section className="notify my-24">
             <h1>Sign Up For The BETA to see more</h1>
             <div className="text-center my-8">
-                <input type="text" placeholder="Business Name" />{" "}
+                <input
+                    className="padding"
+                    type="text "
+                    placeholder="Business Name"
+                />{" "}
                 <input type="email" placeholder="Email" />
             </div>
             <div className="text-center">

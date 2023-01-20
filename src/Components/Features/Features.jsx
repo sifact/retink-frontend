@@ -48,31 +48,41 @@ const Features = () => {
                         continuous updates.
                     </p>
                 </div>
-                <div className="card ">
-                    <div className="flex justify-center">
-                        {" "}
-                        <img src={logo4} alt="" />
+            </div>
+            <div className="flex justify-center">
+                <div className="bottom grid grid-cols-2">
+                    <div
+                        className="card "
+                        style={{ width: "396px", height: "338px" }}
+                    >
+                        <div className="flex justify-center">
+                            {" "}
+                            <img src={logo4} alt="" />
+                        </div>
+
+                        <h1>Receive and Review</h1>
+                        <p>
+                            The finished content is delivered and you can make
+                            corrections that we will effect to satisfy your
+                            requirements.
+                        </p>
                     </div>
 
-                    <h1>Receive and Review</h1>
-                    <p>
-                        The finished content is delivered and you can make
-                        corrections that we will effect to satisfy your
-                        requirements.
-                    </p>
-                </div>
+                    <div
+                        className="card"
+                        style={{ width: "396px", height: "338px" }}
+                    >
+                        <div className="flex justify-center">
+                            <img src={logo5} alt="" />
+                        </div>
 
-                <div className="card">
-                    <div className="flex justify-center">
-                        <img src={logo5} alt="" />
+                        <h1>Publish and Monitor your contents’ progress</h1>
+                        <p>
+                            The finished content is delivered and you can make
+                            corrections that we will effect to satisfy your
+                            requirements.
+                        </p>
                     </div>
-
-                    <h1>Publish and Monitor your contents’ progress</h1>
-                    <p>
-                        The finished content is delivered and you can make
-                        corrections that we will effect to satisfy your
-                        requirements.
-                    </p>
                 </div>
             </div>
 
