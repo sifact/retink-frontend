@@ -14,6 +14,8 @@ const Content = () => {
                 <h1
                     style={{ color: "var(--primary)" }}
                     className="text-center text-2xl font-semibold py-4"
+                    data-aos="fade-left"
+                    data-aos-delay="500"
                 >
                     Activate your business growth with RetinkContent.
                 </h1>
@@ -25,7 +27,7 @@ const Content = () => {
             </div>
 
             <div className="box__wrapper my-24">
-                <div className="box">
+                <div className="box" data-aos="fade-up" data-aos-delay="500">
                     <img src={img1} alt="" />
                     <h1>Logos</h1>
                     <hr />
@@ -35,7 +37,7 @@ const Content = () => {
                         represent your brand identity.
                     </p>
                 </div>
-                <div className="box">
+                <div className="box" data-aos="fade-up" data-aos-delay="500">
                     <img src={img2} alt="" />
                     <h1>Blog Writing</h1>
                     <hr />
@@ -45,7 +47,7 @@ const Content = () => {
                         on any topic of your choice .
                     </p>
                 </div>
-                <div className="box">
+                <div className="box" data-aos="fade-up" data-aos-delay="500">
                     <img src={img3} alt="" />
                     <h1>Animated Videos</h1>
                     <hr />
@@ -54,7 +56,7 @@ const Content = () => {
                         engaged and entertained.
                     </p>
                 </div>
-                <div className="box">
+                <div className="box" data-aos="fade-up" data-aos-delay="500">
                     <img src={img4} alt="" />
                     <h1>Product Demo.</h1>
                     <hr />
@@ -64,7 +66,7 @@ const Content = () => {
                         and creative video.
                     </p>
                 </div>
-                <div className="box">
+                <div className="box" data-aos="fade-up" data-aos-delay="500">
                     <img src={img5} alt="" />
                     <h1>Copywriting</h1>
                     <hr />
@@ -74,7 +76,7 @@ const Content = () => {
                         your product, brand, service or company.
                     </p>
                 </div>
-                <div className="box">
+                <div className="box" data-aos="fade-up" data-aos-delay="500">
                     <img src={img6} alt="" />
                     <h1>Social Media Ads</h1>
                     <hr />

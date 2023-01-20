@@ -13,7 +13,12 @@ const Features = () => {
             <div className="card__wrapper ">
                 <div className="card">
                     <div className="flex justify-center">
-                        <img src={logo1} alt="" />
+                        <img
+                            src={logo1}
+                            alt=""
+                            data-aos="fade-left"
+                            data-aos-delay="500"
+                        />
                     </div>
 
                     <h1>MakeAI-assisted Content Choices</h1>
@@ -25,7 +30,12 @@ const Features = () => {
                 </div>
                 <div className="card">
                     <div className="flex justify-center">
-                        <img src={logo2} alt="" />
+                        <img
+                            src={logo2}
+                            alt=""
+                            data-aos="fade-left"
+                            data-aos-delay="500"
+                        />
                     </div>
 
                     <h1>Upload and Maintain your Brand Identity</h1>
@@ -38,7 +48,12 @@ const Features = () => {
                 <div className="card">
                     <div className="flex justify-center">
                         {" "}
-                        <img src={logo3} alt="" />
+                        <img
+                            src={logo3}
+                            alt=""
+                            data-aos="fade-left"
+                            data-aos-delay="500"
+                        />
                     </div>
 
                     <h1>Be informed as we create</h1>
@@ -57,7 +72,12 @@ const Features = () => {
                     >
                         <div className="flex justify-center">
                             {" "}
-                            <img src={logo4} alt="" />
+                            <img
+                                data-aos="fade-right"
+                                data-aos-delay="500"
+                                src={logo4}
+                                alt=""
+                            />
                         </div>
 
                         <h1>Receive and Review</h1>
@@ -73,7 +93,12 @@ const Features = () => {
                         style={{ width: "396px", height: "338px" }}
                     >
                         <div className="flex justify-center">
-                            <img src={logo5} alt="" />
+                            <img
+                                src={logo5}
+                                alt=""
+                                data-aos="fade-right"
+                                data-aos-delay="500"
+                            />
                         </div>
 
                         <h1>Publish and Monitor your contents’ progress</h1>
@@ -89,6 +114,8 @@ const Features = () => {
             <div className="content mt-24">
                 <h1
                     style={{ color: "var(--primary)" }}
+                    data-aos="fade-down"
+                    data-aos-delay="500"
                     className="text-center text-2xl font-semibold my-4"
                 >
                     Transform your Creation Process

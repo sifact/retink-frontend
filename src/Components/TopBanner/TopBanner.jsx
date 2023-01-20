@@ -8,7 +8,11 @@ const TopBanner = () => {
         <section className="top__banner container__vn flex justify-between my-12">
             <div className="right flex items-center">
                 <div>
-                    <h1 className="text-4xl font-bold">
+                    <h1
+                        data-aos="fade-down"
+                        data-aos-delay="200"
+                        className="text-4xl font-bold"
+                    >
                         Get Advanced AI + Expert Created
                     </h1>
                     <h1
@@ -35,6 +39,8 @@ const TopBanner = () => {
                     <p
                         style={{ color: "var(--primary)" }}
                         className="text-2xl font-semibold mb-4"
+                        data-aos="fade-left"
+                        data-aos-delay="200"
                     >
                         Sign Up For The BETA!
                     </p>
@@ -59,11 +65,19 @@ const TopBanner = () => {
                         </div>
                     </form>
                     <div className="my-8">
-                        <button className="btn-primary smooth mr-20">
+                        <button
+                            className="btn-primary smooth mr-20"
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                        >
                             Notify me
                         </button>
                         <Link to="/register">
-                            <button className="btn-secondary smooth">
+                            <button
+                                className="btn-secondary smooth"
+                                data-aos="fade-down"
+                                data-aos-delay="200"
+                            >
                                 Sign up as a freelance partner
                             </button>
                         </Link>

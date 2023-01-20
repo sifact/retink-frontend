@@ -8,6 +8,8 @@ const Video = () => {
             <h1
                 style={{ color: "var(--primary)" }}
                 className="text-2xl font-bold my-8 text-center"
+                data-aos="fade-right"
+                data-aos-delay="200"
             >
                 Explainer Video
             </h1>
